@@ -36,7 +36,7 @@ h1 {
 #name {
     font-size: 30px;
     line-height: 1.2;
-    font-family: 'cinzel',cursive;
+    font-family: 'cinzel', cursive;
 }
 
 h2 {
@@ -91,6 +91,19 @@ p {
     padding-left: 9px;
     padding-right: 9px;
 }
-.links:hover{
-background-color:dodgerblue;
+
+.links:hover {
+    background-color: dodgerblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article:hover {
+    color: chartreuse;
+}
+
+html {
+    scroll-behaviour: smooth;
 }
